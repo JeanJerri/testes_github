@@ -7,12 +7,17 @@ O desafio está presente em cada sprint ao longo do estágio. Utilize o diretór
 
 [Entrega](etapas/entrega.txt)
 
+
+
 ![Desafio](etapas/Desafio.png)
+<img src="etapas/Desafio.png" alt="Texto Alternativo" width="550">
 
 0. ...
    ![Etapa 0](etapas/Etapa_0.1.png)
+   <img src="etapas/Etapa_0.1.png" alt="Texto Alternativo" width="450">
 
    ![Etapa 0](etapas/Etapa_0.2.png)
+   <img src="etapas/Etapa_0.2.png" alt="Texto Alternativo" width="350">
 
 1. ...
    ![Etapa 1](etapas/Etapa_1.1.png)
