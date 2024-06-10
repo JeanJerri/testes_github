@@ -41,6 +41,7 @@ _Usei o WSL no windowns pra rodar o Linux e conforme o passo a passo indicado no
 [Entrega.](../Desafio/etapas/entrega.txt)
 
 - Arquivos dados_de_vendas.csv
+
 [1º arquivo dados_de_vendas.csv gerado/alterado](../Desafio/etapas/ecommerce/outros%20dados_de_vendas/original/dados_de_vendas.csv)
 
 [2º arquivo dados_de_vendas.csv gerado/alterado](../Desafio/etapas/ecommerce/outros%20dados_de_vendas/2/dados_de_vendas.csv)
@@ -50,11 +51,13 @@ _Usei o WSL no windowns pra rodar o Linux e conforme o passo a passo indicado no
 [4º arquivo dados_de_vendas.csv gerado/alterado](../Desafio/etapas/ecommerce/outros%20dados_de_vendas/4/dados_de_vendas.csv)
 
 - Executáveis
+
 [Arquivo executável processamento_de_vendas.sh.](../Desafio/etapas/ecommerce/processamento_de_vendas.sh)
 
 [Arquivo executável consolidador_de_processamento_de_vendas.sh](../Desafio/etapas/ecommerce/consolidador_de_processamento_de_vendas.sh)
 
 - Resultados
+
 [Resultado da execução do arquivo processamento_de_vendas.sh](../Desafio/etapas/ecommerce/vendas/backup/)
 
 [Resultado da execução do arquivo consolidador_de_processamento_de_vendas.sh](../Desafio/etapas/ecommerce/relatorio_final.txt)
