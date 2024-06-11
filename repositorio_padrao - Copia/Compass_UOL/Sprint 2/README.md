@@ -16,7 +16,7 @@
 # Desafio
 
 
-[Entrega do Desafio](../Sprint%202/Desafio/)
+- [Entrega do Desafio](../Sprint%202/Desafio/)
 
 
 # Certificados
