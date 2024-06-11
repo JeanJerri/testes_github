@@ -12,4 +12,4 @@
 # Desafio
 
 
-[Entrega do Desafio](../../Compass_UOL/Sprint%201/Desafio/)
+[Entrega do Desafio](../Sprint%201/Desafio/)
