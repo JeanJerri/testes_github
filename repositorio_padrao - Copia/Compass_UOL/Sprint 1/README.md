@@ -1,11 +1,11 @@
 # Exercícios
 
 
-1. ...
+1. 
 [Resolução da Atividade - Etapa 1(Repositório).](../../Compass_UOL/)
 
 
-2. ...
+2. 
 [Resolução da Atividade - Etapa 3(Arquivo README.md).](../../Compass_UOL/README.md)
 
 
