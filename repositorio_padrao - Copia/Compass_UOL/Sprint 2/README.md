@@ -2,14 +2,11 @@
 
 
 ## 1. Casos de Estudo
-
 1. [Respostas dos Exercícios Casos de Estudo.](../Sprint%202/exercicios/Exercício%20I%20-%20Casos%20de%20Estudo/respostas_exercicios.txt)
 
 
 ## 2. Exportação de Dados
-
 1. [Resposta Etapa 1.](../Sprint%202/exercicios/Exercício%20II%20-%20Exportação%20de%20dados/resultado_etapa1.csv)
-
 2. [Resposta Etapa 2.](../Sprint%202/exercicios/Exercício%20II%20-%20Exportação%20de%20dados/resultado_etapa2.csv)
 
 
