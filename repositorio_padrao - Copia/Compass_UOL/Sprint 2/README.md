@@ -22,8 +22,8 @@
 # Certificados
 
 
-- Certificado do Curso 
-![Curso ](../Sprint%202/certificados)
+- Certificado do Curso Parceiro AWS: Credenciamento de Vendas
+![Curso Parceiro AWS: Credenciamento de Vendas](../Sprint%202/certificados/Curso%20Parceiro%20AWS%20Credenciamento%20de%20Vendas.pdf)
 
 - Certificado do Curso SQL para Análise de Dados
-![Curso SQL para Análise de Dados](../Sprint%202/certificados/Curso%20SQL%20para%20Análise%20de%20Dados.jpg)
+![Curso SQL para Análise de Dados](../Sprint%202/certificados/Curso%20SQL%20para%20Análise%20de%20Dados.pdf)

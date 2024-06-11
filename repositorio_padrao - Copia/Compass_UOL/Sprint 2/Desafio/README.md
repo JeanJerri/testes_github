@@ -11,6 +11,7 @@ __Arquivo .SQL com comandos para resolução do Desafio__
 [Arquivo .SQL](../Desafio/etapa-1/desafio.sql)
 
 
+
 ## Etapa 1
 - Primeiro fiz a normalização do banco de dados concessionaria para o modelo relacional. Para isso agrupei as colunas de acordo com o seu conteúdo, gerando novas tabelas apartir dos agrupamentos com foco no cliente, vendedor, carro, desgaste do carro, combustível e na locação.
 
