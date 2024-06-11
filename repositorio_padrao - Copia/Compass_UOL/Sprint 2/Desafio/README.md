@@ -1,12 +1,12 @@
 # Etapas
 
 
-#### Banco de Dados Concessionaria.
+__Banco de Dados Concessionaria.__
 
 ![Banco de Dados Concessionaria](../evidencias/concessionaria.sqlite.png)
 
 
-#### Arquivo com Comandos .SQL para relosução do Desafio
+__Arquivo .SQL com comandos para resolução do Desafio__
 
 [Arquivo .SQL](../Desafio/etapa-1/desafio.sql)
 
