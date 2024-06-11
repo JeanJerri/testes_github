@@ -4,9 +4,6 @@
 Olá, sou Jean Jerri Rocha Bento da Silva, moro na cidade de Barra do Choça - BA, e estou cursando Bacharelado em Sistemas de Informação no Instituto Federal de Educação, Ciências e Tecnologia da Bahia (IFBA) no Campus de Vitória da Conquista. Atualmente estou no 2º semestre da graduação.
 
 
-___
-
-
 # Sprints
 
 
