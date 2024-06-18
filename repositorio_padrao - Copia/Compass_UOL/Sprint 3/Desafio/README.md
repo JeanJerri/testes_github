@@ -2,6 +2,7 @@
 
 ![Entregáveis](../Desafio/2_entregaveis.png)
 - Entregável
+
     [Arquivo Jupyter (.ipynb) com os scripts e execução documentada em Markdwon](../Desafio/etapa-2/desafio.ipynb)
 
 
@@ -17,5 +18,5 @@
 ## Etapa II
 ![Etapa II](../Desafio/4.1_etapa_2.1.png)
 ![Etapa II](../Desafio/4.1_etapa_2.2.png)
-![Arquivo Jupyter (.ipynb) com os scripts e execução documentada em Markdwon](../Desafio/etapa-2/desafio.ipynb)
+    [Arquivo Jupyter (.ipynb) com os scripts e execução documentada em Markdwon](../Desafio/etapa-2/desafio.ipynb)
 
