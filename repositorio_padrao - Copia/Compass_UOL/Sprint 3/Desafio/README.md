@@ -1,21 +1,20 @@
-
-# Instruções
-
-
-Neste arquivo você irá apresentar suas entregas referentes ao desafio final. 
-O desafio está presente em cada sprint ao longo do estágio. Utilize o diretório "Desafio" para organizar seus artefatos e este README.md para fazer referência aos arquivos de código-fonte e demais entregáveis solicitados.
-
-
 # Etapas
 
+![Entregaveis](../Desafio/2_entregaveis.png)
+[Arquivo Jupyter (.ipynb)](../Desafio/etapa-2/desafio.ipynb)
 
-1. ...
-[Etapa I](etapa-1/entrega.txt)
+![Preparação](../Desafio/3_preparacao.png)
+[Arquivo googleplaystore.csv](../Desafio/etapa-2/googleplaystore.csv)
 
+![Desafio](../Desafio/4_desafio_1.png)
+![Desafio](../Desafio/4_desafio_2.png)
 
-2. ...
-[Etapa II](etapa-2/entrega.txt)
+## Etapa I
+![Etapa I](../Desafio/4.1_etapa_1.png)
+![Print da instalação das bibliotecas](../Desafio/etapa-1/print_desafio.png)
 
-
-
+## Etapa II
+![Etapa II](../Desafio/4.1_etapa_2.1.png)
+![Etapa II](../Desafio/4.1_etapa_2.2.png)
+[Arquivo Jupyter (.ipynb)](../Desafio/etapa-2/desafio.ipynb)
 
