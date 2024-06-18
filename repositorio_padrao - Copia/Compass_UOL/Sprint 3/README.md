@@ -12,43 +12,55 @@
 
 ![Exercício da Seção 5](../Sprint%203/exercicios/exercicio_secao_05/atividades%20(1).png)
 [Arquivo actors.csv](../Sprint%203/exercicios/exercicio_secao_05/actors.csv)
+
 ![Exercício da Seção 5](../Sprint%203/exercicios/exercicio_secao_05/atividades%20(2).png)
 ![Exercício da Seção 5](../Sprint%203/exercicios/exercicio_secao_05/atividades%20(3).png)
 
+
 ### Etapa 1
+
 ![Etapa 1](../Sprint%203/exercicios/exercicio_secao_05/etapa1.png)
+
 [Script Etapa 1](../Sprint%203/exercicios/exercicio_secao_05/etapa1.py)
+
 [Resposta Etapa 1](../Sprint%203/exercicios/exercicio_secao_05/etapa-1.txt)
 
+
 ### Etapa 2
+
 ![Etapa 2](../Sprint%203/exercicios/exercicio_secao_05/etapa2.png)
+
 [Script Etapa 2](../Sprint%203/exercicios/exercicio_secao_05/etapa2.py)
+
 [Resposta Etapa 2](../Sprint%203/exercicios/exercicio_secao_05/etapa-2.txt)
 
+
 ### Etapa 3
+
 ![Etapa 3](../Sprint%203/exercicios/exercicio_secao_05/etapa3.png)
+
 [Script Etapa 3](../Sprint%203/exercicios/exercicio_secao_05/etapa3.py)
+
 [Resposta Etapa 3](../Sprint%203/exercicios/exercicio_secao_05/etapa-3.txt)
 
+
 ### Etapa 4
+
 ![Etapa 4](../Sprint%203/exercicios/exercicio_secao_05/etapa4.png)
+
 [Script Etapa 4](../Sprint%203/exercicios/exercicio_secao_05/etapa4.py)
+
 [Resposta Etapa 4](../Sprint%203/exercicios/exercicio_secao_05/etapa-4.txt)
 
+
 ### Etapa 5
+
 ![Etapa 5](../Sprint%203/exercicios/exercicio_secao_05/etapa5.1.png)
 ![Etapa 5](../Sprint%203/exercicios/exercicio_secao_05/etapa5.2.png)
+
 [Script Etapa 5](../Sprint%203/exercicios/exercicio_secao_05/etapa5.py)
+
 [Resposta Etapa 5](../Sprint%203/exercicios/exercicio_secao_05/etapa-5.txt)
-
-
-# Evidências
-
-
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
-
-
-![Evidencia 1](evidencias/sample.webp)
 
 
 # Desafio
@@ -62,15 +74,3 @@ Ao executar o código do exercício ... observei que ... conforme podemos ver na
 
 - Certificado do Curso Parceiro AWS: Economias na Nuvem
 [Curso Parceiro AWS: Economias na Nuvem](../Sprint%203/certificados/Curso%20Parceiro%20AWS%20Aspectos%20econômicos%20da%20nuvem.pdf)
-
-
-
-
-
-
-# Instruções
-
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
-
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
