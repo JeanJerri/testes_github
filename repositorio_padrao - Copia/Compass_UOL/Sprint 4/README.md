@@ -27,12 +27,3 @@
 
 - [Entrega do Desafio](../Sprint%204/Desafio/README.md)
 
-
-# Certificados
-
-
-- Certificado do Curso Parceiro AWS: ...
-[Curso Parceiro AWS: ...](../Sprint%204/certificados/)
-
-- Certificado do Curso ...
-[Curso ...](../Sprint%204/certificados/)
