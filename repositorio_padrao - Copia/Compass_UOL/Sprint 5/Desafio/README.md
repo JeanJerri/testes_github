@@ -14,12 +14,18 @@
 
     ![Bucket](../evidencias/bucket%20criado.png)
 
-- Na consulta obtive a data em que foi realizado o processamento através da função UTCNOW() e fiz sua conversão com o TO_STRING. 
+- Na consulta obtive a data em que foi realizado o processamento através da função de data UTCNOW() e fiz sua conversão com o TO_STRING() pra melhor formatação dos dados de data. 
 
-- Usei as funções agregadas SUM, AVG e COUNT para fazer a soma do total de produtos vendidos, a média por vendas e a quantidade de vendas, - respectivamente. E também usei o SUM para calcular a quantidade de vendas nordeste/sudeste.
+- Com a função de string UPPER() deixei as informações de data em maiúsculo.
 
-- Fiz um filtro para mostrar apenas os registros que tem como origem o Sul ou como destino o nordeste e as que tem como origem o nordeste e destino sudeste, logo, selecionando dados com pelo uma das 3 condições.
+- Usei as funções agregadas SUM(), AVG() e COUNT() para fazer a soma do total de produtos vendidos, a média por vendas e a quantidade de vendas, - respectivamente. 
 
-- Tudo isso somente em uma consulta: [Evidencia 1](../Desafio/etapa-1/consulta_sql.sql)
+- E também usei o SUM() para calcular a quantidade de vendas nordeste/sudeste junto com uma função condicional em que se somava 1 cada vez que a condição fosse verdadeira.
 
-    ![Evidencia 1](../evidencias/execução%20da%20consulta%20SQL.png)
+- Junto as funções agregadas usei a função de conversão CAST() para definir o tipo de dados que estava sendo tratado.
+
+- E fiz um filtro usando operadores lógicos no WHERE para mostrar apenas os registros que tem como origem o Sul ou como destino o nordeste e as que tem como origem o nordeste e destino sudeste, logo, selecionando dados com pelo uma das 3 condições.
+
+- Tudo isso somente em uma consulta: [Consulta_SQL.sql](../Desafio/etapa-1/consulta_sql.sql)
+
+    ![Execução da consulta SQL](../evidencias/execução%20da%20consulta%20SQL.png)
