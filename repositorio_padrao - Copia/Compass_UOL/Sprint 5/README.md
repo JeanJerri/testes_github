@@ -11,4 +11,4 @@
 [Curso Parceiro AWS: Credenciamento](../Sprint%205/certificados/aws-cloud-quest-cloud-practitioner.png)
 
 - Certificado do Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02)
-[Curso Parceiro AWS: Fundamentos Técnicos da AWS](../Sprint%205/certificados/)
+[Curso Parceiro AWS: Fundamentos Técnicos da AWS](../Sprint%205/certificados/Certificado%20do%20Curso-padrão%20de%20preparação%20para%20o%20exame%20AWS%20Certified%20Cloud%20Practitioner%20(CLF-C02).pdf)

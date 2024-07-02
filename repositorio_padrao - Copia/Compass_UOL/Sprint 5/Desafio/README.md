@@ -7,12 +7,12 @@
 
 - Fiz a analise do conjunto de dados para elaborar uma consulta com os critérios solicitados no desafio.
 
-![Critérios](../Desafio/critérios%20(1).png)
-- ![Critérios](../Desafio/critérios%20(2).png)
+    ![Critérios](../Desafio/critérios%20(1).png)
+    ![Critérios](../Desafio/critérios%20(2).png)
 
 - Subi o arquivo para um bucket que eu criei para executar a consulta.
 
-![Bucket](../evidencias/bucket%20criado.png.png)
+    ![Bucket](../evidencias/bucket%20criado.png)
 
 - Na consulta obtive a data em que foi realizado o processamento através da função UTCNOW() e fiz sua conversão com o TO_STRING. 
 
@@ -20,8 +20,6 @@
 
 - Fiz um filtro para mostrar apenas os registros que tem como origem o Sul ou como destino o nordeste e as que tem como origem o nordeste e destino sudeste, logo, selecionando dados com pelo uma das 3 condições.
 
-- Tudo isso somente em uma consulta.
+- Tudo isso somente em uma consulta: [Evidencia 1](../Desafio/etapa-1/consulta_sql.sql)
 
-    ![Evidencia 1](../Desafio/etapa-1/consulta_sql.sql)
-
-![Evidencia 1](../evidencias/execução%20da%20consulta%20SQL.png)
+    ![Evidencia 1](../evidencias/execução%20da%20consulta%20SQL.png)
