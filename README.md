@@ -1,46 +1,88 @@
+![Thumbnail Challenge Conversor de Moedas](./img/Programação-Challenge%20Conversor%20de%20Moedas.png)
 
-## Imagem de capa
+# LiterAlura
 
-![Thumbnail GitHub](https://user-images.githubusercontent.com/8989346/123303345-171fc980-d4f4-11eb-84ae-cb0e49bfb126.png)
-
-# Conversor de Moedas
-
-Este projeto é um conversor de moedas que permite ao usuário converter valores entre diferentes moedas em tempo real, utilizando uma API para obter as taxas de câmbio atualizadas.
+Neste projeto, construímos nosso próprio catálogo de livros utilizando Java, Spring Boot, PostgreSQL e a API Gutendex. O objetivo é consumir a API Gutendex, que possui dados de mais de 70 mil livros, e praticar a persistência de dados em um banco de dados relacional. Este projeto é desenvolvido na IDE IntelliJ e oferece cinco opções de interação com o usuário via terminal.
 
 ## 🔨 Funcionalidades do projeto
 
-- `Conversão de moedas`: Permite a conversão entre Real Brasileiro e outras moedas como Boliviano, Peso Argentino, Peso Chileno, Peso Colombiano e Dólar.
-- `Interação via console`: O usuário pode interagir com o programa através de um menu textual no console.
-- `Taxas de câmbio em tempo real`: Utiliza a API Extended Rate para obter as taxas de câmbio mais recentes.
-
-![](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/raw/master/img/amostra.gif)
+- **Buscar livro pelo título:** Realiza a consulta diretamente na API Gutendex e insere o livro no banco de dados.
+- **Listar livros registrados:** Lista todos os livros registrados no banco de dados.
+- **Listar autores registrados:** Lista todos os autores registrados no banco de dados.
+- **Listar autores vivos em um determinado ano:** Lista autores que estavam vivos em um ano especificado pelo usuário.
+- **Listar livros em um determinado idioma:** Lista todos os livros registrados no banco de dados em um idioma especificado pelo usuário.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- `Java`: Linguagem de programação utilizada para desenvolver o projeto.
-- `API Extended Rate`: API utilizada para obter as taxas de câmbio.
-- `Gson`: Biblioteca utilizada para desserializar o JSON recebido da API.
+- **Java:** Linguagem de programação utilizada para o desenvolvimento do projeto.
+- **Spring Boot:** Framework utilizado para criar a aplicação de forma rápida e fácil.
+- **PostgreSQL:** Banco de dados relacional utilizado para armazenar os dados.
+- **Gutendex API:** API utilizada para obter os dados dos livros.
 
 ## 📁 Acesso ao projeto
 
-Você pode acessar o código fonte do projeto [aqui](https://github.com/seu-usuario/conversor-de-moedas).
+Você pode acessar o código fonte do projeto [aqui](./src).
 
 ## 🛠️ Abrir e rodar o projeto
 
 Para executar o projeto, siga as instruções abaixo:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/conversor-de-moedas.git
-   ```
+1. Clone o repositório para sua máquina.
 2. Abra o projeto em sua IDE Java de preferência (recomendo IntelliJ IDEA).
-3. Configure a sua chave da API Extended Rate no código:
-   - No arquivo `Moedas.java`, substitua a variável `chaveAPI` pela sua chave de API:
-     ```java
-     private String chaveAPI = "sua-chave-da-api";
-     ```
-4. Execute a classe `Main` para iniciar o programa.
+3. **Configure o banco de dados PostgreSQL:**
+    - Baixe e instale o PostgreSQL [aqui](https://www.postgresql.org/download/).
+    - Crie um banco de dados para o projeto.
+4. **Configure as propriedades do banco de dados em `application.properties`:**
+    ```properties
+    spring.datasource.url=jdbc:postgresql://localhost:5432/seu_banco_de_dados
+    spring.datasource.username=seu_usuario
+    spring.datasource.password=sua_senha
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.show-sql=true
+    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+    ```
+5. Execute a classe `ChallengeLiteraluraApplication` para iniciar o programa.
+
+## Uso
+
+Após iniciar o projeto, as opções de interação serão exibidas no terminal. Selecione a opção desejada digitando o número correspondente e seguindo as instruções.
+
+### Exemplo de Uso
+
+1. **Buscar livro pelo título:**
+    - Digite `1` e, em seguida, o título do livro (por exemplo, "Dom Casmurro").
+    - O sistema buscará o livro na API Gutendex e o registrará no banco de dados.
+
+2. **Listar livros registrados:**
+    - Digite `2` para listar todos os livros registrados no banco de dados.
+
+3. **Listar autores registrados:**
+    - Digite `3` para listar todos os autores registrados no banco de dados.
+
+4. **Listar autores vivos em um determinado ano:**
+    - Digite `4` e, em seguida, o ano desejado (por exemplo, 1800) para listar os autores que estavam vivos naquele ano.
+
+5. **Listar livros em um determinado idioma:**
+    - Digite `5` e, em seguida, a sigla do idioma desejado (`es` para espanhol, `en` para inglês, `fr` para francês, `pt` para português) para listar os livros naquele idioma.
+
+## Estrutura do Projeto
+
+- `ChallengeLiteraluraApplication.java`: Classe principal que inicia o projeto Spring Boot.
+- `Principal.java`: Classe que exibe o menu e gerencia as interações do usuário.
+- `ConsumoApi.java`: Classe que consome a API Gutendex.
+- `ConverteDados.java`: Classe que converte os dados JSON retornados pela API Gutendex.
+- `Autor.java`: Entidade que representa um autor.
+- `Livro.java`: Entidade que representa um livro.
+- `DadosAutor.java`: Classe que mapeia os dados do autor retornados pela API Gutendex.
+- `DadosLivro.java`: Classe que mapeia os dados do livro retornados pela API Gutendex.
+- `ResultadoBusca.java`: Classe que mapeia o resultado da busca na API Gutendex.
+- `RepositoryAutor.java`: Repositório JPA para a entidade `Autor`.
+- `RepositoryLivro.java`: Repositório JPA para a entidade `Livro`.
+
+## API Gutendex
+
+A API Gutendex é gratuita e fornece dados de mais de 70 mil livros. Para mais informações, visite o [site da Gutendex](https://gutendex.com/).
 
 ## 📚 Mais informações do curso
 
-Para mais informações e detalhes sobre este projeto, confira o curso da Alura [aqui](https://www.alura.com.br/curso-online-java).
+Para mais informações e detalhes sobre este projeto, confira o challenge da Alura [aqui](https://cursos.alura.com.br/course/praticando-java-construindo-conversor-moedas).
