@@ -1,23 +1,23 @@
-![Thumbnail Challenge Conversor de Moedas](./img/Programação-Challenge%20Conversor%20de%20Moedas.png)
+![Thumbnail Challenge Fórum Hub](./img/Programação-Challenge%20Conversor%20de%20Moedas.png)
 
-# LiterAlura
+# Fórum Hub
 
-Neste projeto, construímos nosso próprio catálogo de livros utilizando Java, Spring Boot, PostgreSQL e a API Gutendex. O objetivo é consumir a API Gutendex, que possui dados de mais de 70 mil livros, e praticar a persistência de dados em um banco de dados relacional. Este projeto é desenvolvido na IDE IntelliJ e oferece cinco opções de interação com o usuário via terminal.
+Neste projeto, desenvolvemos uma plataforma de fórum utilizando Java, Spring Boot e segurança com Spring Security. O objetivo é criar um ambiente onde usuários autenticados podem criar, listar, atualizar e deletar tópicos relacionados a cursos da Alura, seguindo regras rígidas de autenticação e autorização.
 
 ## 🔨 Funcionalidades do projeto
 
-- `Buscar livro pelo título:` Realiza a consulta diretamente na API Gutendex e insere o livro no banco de dados.
-- `Listar livros registrados:` Lista todos os livros registrados no banco de dados.
-- `istar autores registrados:` Lista todos os autores registrados no banco de dados.
-- `Listar autores vivos em um determinado ano:` Lista autores que estavam vivos em um ano especificado pelo usuário.
-- `Listar livros em um determinado idioma:` Lista todos os livros registrados no banco de dados em um idioma especificado pelo usuário.
+- `Listagem de todos os tópicos:` Permite visualizar todos os tópicos cadastrados no sistema.
+- `Visualização de um único tópico:` Permite acessar detalhes de um tópico específico por meio de sua identificação.
+- `Criação de um novo tópico:` Usuários autenticados podem criar novos tópicos, especificando título, mensagem e curso relacionado.
+- `Atualização de um tópico:` Apenas o autor do tópico pode atualizar suas informações.
+- `Remoção de um tópico:` Apenas o autor do tópico pode deletá-lo do sistema.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- `Java:` Linguagem de programação utilizada para o desenvolvimento do projeto.
-- `Spring Boot:` Framework utilizado para criar a aplicação de forma rápida e fácil.
-- `PostgreSQL:` Banco de dados relacional utilizado para armazenar os dados.
-- `Gutendex API:` API utilizada para obter os dados dos livros.
+- `Java:` Linguagem de programação utilizada para o desenvolvimento do backend.
+- `Spring Boot:` Framework utilizado para criar a aplicação de forma rápida e eficiente.
+- `Spring Security:` Framework de segurança utilizado para controle de acesso e autenticação.
+- `PostgreSQL:` Banco de dados relacional utilizado para armazenar dados dos tópicos e usuários.
 
 ## 📁 Acesso ao projeto
 
@@ -30,8 +30,8 @@ Para executar o projeto, siga as instruções abaixo:
 1. Clone o repositório para sua máquina.
 2. Abra o projeto em sua IDE Java de preferência (recomendo IntelliJ IDEA).
 3. Configure o banco de dados PostgreSQL:
-    - Baixe e instale o PostgreSQL.
-    - Crie um banco de dados para o projeto.
+   - Baixe e instale o PostgreSQL.
+   - Crie um banco de dados para o projeto.
 4. Configure as propriedades do banco de dados em `application.properties`:
 
     ```properties
@@ -42,43 +42,29 @@ Para executar o projeto, siga as instruções abaixo:
     spring.jpa.show-sql=true
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
     ```
-5. Execute a classe `ChallengeLiteraluraApplication` para iniciar o programa.
+5. Execute a classe principal da aplicação para iniciar o servidor.
 
 ## 👩‍💻 Uso
 
-Após iniciar o projeto, as opções de interação serão exibidas no terminal. Selecione a opção desejada digitando o número correspondente e seguindo as instruções.
+Após iniciar o projeto, utilize ferramentas como o Insomnia ou Postman para testar os endpoints. Certifique-se de autenticar-se antes de criar, atualizar ou deletar tópicos.
 
 ### Exemplo de Uso
 
-1. Digite `1` e, em seguida, o título do livro (por exemplo, "Dom Casmurro").
-   O sistema buscará o livro na API Gutendex e o registrará no banco de dados.
-
-2. Digite `2` para listar todos os livros registrados no banco de dados.
-
-3. Digite `3` para listar todos os autores registrados no banco de dados.
-
-4. Digite `4` e, em seguida, o ano desejado (por exemplo, 1800) para listar os autores que estavam vivos naquele ano.
-
-5. Digite `5` e, em seguida, a sigla do idioma desejado (`es` para espanhol, `en` para inglês, `fr` para francês, `pt` para português) para listar os livros naquele idioma.
+1. Autentique-se usando o endpoint `/login` para obter um token Bearer.
+2. Crie um novo tópico usando o endpoint `/topicos`, fornecendo título, mensagem e curso.
+3. Liste todos os tópicos usando o endpoint `/topicos` para verificar a criação.
+4. Atualize ou delete um tópico usando os endpoints apropriados, autenticando-se sempre com o token Bearer.
 
 ## 🤖 Estrutura do Projeto
 
-- `ChallengeLiteraluraApplication.java`: Classe principal que inicia o projeto Spring Boot.
-- `Principal.java`: Classe que exibe o menu e gerencia as interações do usuário.
-- `ConsumoApi.java`: Classe que consome a API Gutendex.
-- `ConverteDados.java`: Classe que converte os dados JSON retornados pela API Gutendex.
-- `Autor.java`: Entidade que representa um autor.
-- `Livro.java`: Entidade que representa um livro.
-- `DadosAutor.java`: Classe que mapeia os dados do autor retornados pela API Gutendex.
-- `DadosLivro.java`: Classe que mapeia os dados do livro retornados pela API Gutendex.
-- `ResultadoBusca.java`: Classe que mapeia o resultado da busca na API Gutendex.
-- `RepositoryAutor.java`: Repositório JPA para a entidade `Autor`.
-- `RepositoryLivro.java`: Repositório JPA para a entidade `Livro`.
-
-## ⚙️ API Gutendex
-
-A API Gutendex é gratuita e fornece dados de mais de 70 mil livros. Para mais informações, visite o [site da Gutendex](https://gutendex.com/).
+- `AutenticacaoController.java`: Controlador responsável pela autenticação de usuários.
+- `SecurityConfigurations.java`: Configurações de segurança utilizando Spring Security.
+- `TokenService.java`: Serviço para geração e validação de tokens JWT.
+- `SecurityFilter.java`: Filtro de segurança para validar tokens em todas as requisições.
+- `Usuario.java`: Entidade que representa um usuário do sistema.
+- `DadosAutenticacao.java`: Classe para representar dados de autenticação (login e senha).
+- `RepositoryUsuario.java`: Repositório JPA para operações relacionadas a usuários.
 
 ## 📚 Mais informações do curso
 
-Para mais informações e detalhes sobre este projeto, confira o challenge da Alura [aqui](https://cursos.alura.com.br/course/spring-boot-challenge-literalura).
+Para mais informações e detalhes sobre este projeto, confira o challenge da Alura [aqui](https://cursos.alura.com.br/course/spring-framework-challenge-forum-hub).
